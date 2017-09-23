@@ -1,0 +1,16 @@
+div#root {
+	padding: 10px
+}
+
+ul.menu {
+	margin: 0;
+	padding: 0
+}
+ul.menu li {
+	display: inline
+}
+
+div.todoList ul li {
+	cursor: pointer;
+	padding: 2px
+}
