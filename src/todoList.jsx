@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 function TodoList (_props) {
 
 	const onTodoClick = function (_id) {
-		console.log("clicked + " + _id);
 		_props.onTodoClick(_id);
 	};
 

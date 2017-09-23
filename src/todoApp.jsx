@@ -15,7 +15,6 @@ class TodoApp extends React.Component {
 	}
 
 	handleSubmission (_entry) {
-		console.log(_entry + " Submitted");
 		this.setState({
 			list: [...this.state.list, _entry]
 		});		
