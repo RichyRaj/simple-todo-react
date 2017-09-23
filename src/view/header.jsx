@@ -1,17 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Title (_props) {
-	var liStyle = {
-		cursor: (_props.isSelected === 'true') ? 'default' : 'pointer'
-	};
-	return (
-		<li style = {liStyle}>
-			All
-		</li>
-	);
-}
-
 function Header (_props) {
 	return (
 		<div>
